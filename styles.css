@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 100%;
+    background-color: rgb(160, 243, 172);
+}
+
+#titulo{
+
+    text-align: center;
+    text-overflow: ellipsis;
+    font-size: 60px;
+    font-family:'Courier New', Courier, monospace;
+    margin: 50px auto;
+}
+
+#base{
+    width: 1000px;
+    margin: 0px auto;
+    border-collapse: collapse;
+
+}
+
+#tabla{
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+
+}
+
+th {
+    background-color: #f2f2f2;
+}
